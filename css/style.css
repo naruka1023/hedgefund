@@ -87,6 +87,27 @@ Developed:      Template_mr
   background: #fff;
   overflow: hidden;
 }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size:80%
+}
+#GDNav li a{
+  font-size:80%
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+.tradingRecord td{
+  text-align:left
+}
+
+.paragraph{
+  text-indent:30px
+}
 #loader {
   background: url(../images/1.gif);
   width: 64px;
@@ -137,6 +158,12 @@ Developed:      Template_mr
   font-weight: normal;
   color:rgba(0,0,0,0.6);
   font-size: 16px;
+ }
+ .panel-body ul{
+   margin-left:40px
+ }
+ #devCostTable td:first-child{
+   text-align:right
  }
  body .main-page-wrapper {overflow-x:hidden;}
  h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;}
@@ -204,6 +231,9 @@ body .theme-button-one:hover {background: transparent;}
   color: #fff;
   background: #d0cece;
 }
+.modal-open[style] {
+  padding-right: 0px !important;
+  }
 .theme-pagination ul li:last-child a {font-size: 13px;}
  /*----------------------- Theme Color File -------------------*/
 .p-color,.theme-header-wrapper .top-header.white-bg .left-content li a:hover,.theme-header-wrapper .top-header .social-icon li a:hover,
@@ -330,7 +360,7 @@ body .theme-button-one {
   position: relative;
   z-index: 1;
   top: 50%;
-  margin-top: 80px;
+  margin-top: 20px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
@@ -359,6 +389,22 @@ body .theme-button-one {
   z-index: 9;
   bottom: 20px;
   text-align: center;
+}
+#mega-menu-wrapper .nav>li>a{
+  padding-top:29px;
+  font-size:14px !important
+}
+.main-title{
+  padding-bottom:30px
+}
+#mega-menu-wrapper .nav>li.dropdown-holder .sub-menu li a{
+  font-size:75%
+}
+#firstTitle{
+  font-size: 25px;
+  width: 33vw;
+  line-height: 42px !important;
+  font-weight: 200;
 }
 #theme-main-banner.camera_wrap .camera_pag .camera_pag_ul li {
   width: 14px;
@@ -805,7 +851,7 @@ body .theme-button-one {
 .theme-footer {padding: 65px 0 0 0;background: #0f0f0f;}
 .theme-footer.color-two {background: #04041c;}
 .theme-footer a,.theme-footer li {color: rgba(255,255,255,0.6);}
-.theme-footer .footer-logo p {margin: 55px 0 50px 0;color: rgba(255,255,255,0.6);}
+.theme-footer .footer-logo p {margin: 25px 0;color: rgba(255,255,255,0.6);}
 .theme-footer .footer-logo h5 {margin-bottom: 25px;font-weight: normal;color: #fff;}
 .theme-footer .footer-logo ul li {display: inline-block;}
 .theme-footer .footer-logo ul li a {
